@@ -1,0 +1,35 @@
+remote_theme: vaibhavvikas/jekyll-theme-minimalistic
+
+title: AbLECPS
+description: Assurance-based Learning Enabled Cyber Physical Systems
+logo: /imgs/AbLECPS.png
+email: alc-team@vanderbilt.edu
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
+
+platforms:
+  - name: GitHub
+    icon: <i class="fa-brands fa-github"></i>
+    link: https://github.com/AbLECPS/alc
+
+navigation:
+  - name: ALC-Toolchain
+    link: ./
+    sublist:
+      - name: UUV Example
+        link: ./uuv.html
+      - name: LECs & AMs
+        link: ./lecs_ams.html
+      - name: UUV Activity definitions
+        link: ./activities.html
+      - name: CP1 Activity
+        link: ./activities_cp1.html  
+      - name: CP2 Activity
+        link: ./activities_cp2.html
+      - name: CP4 Activity
+        link: ./activities_cp4.html
+      - name: Results & post process
+        link: ./results.html
