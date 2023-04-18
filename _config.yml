@@ -4,6 +4,7 @@ title: AbLECPS
 description: Assurance-based Learning Enabled Cyber Physical Systems
 logo: /imgs/AbLECPS.png
 email: alc-team@vanderbilt.edu
+color-scheme: light
 
 plugins:
   - jekyll-sitemap
@@ -23,13 +24,13 @@ navigation:
         link: ./uuv.html
       - name: LECs & AMs
         link: ./lecs_ams.html
-      - name: UUV Activity definitions
+      - name: UUV Challenge Problems
         link: ./activities.html
-      - name: CP1 Activity
+      - name: Challenge Problem 1
         link: ./activities_cp1.html  
-      - name: CP2 Activity
+      - name: Challenge Problem 2
         link: ./activities_cp2.html
-      - name: CP4 Activity
+      - name: Challenge Problem 4
         link: ./activities_cp4.html
       - name: Results & post process
         link: ./results.html

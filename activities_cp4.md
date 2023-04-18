@@ -1,5 +1,5 @@
 
-**[Home](https://AbLECPS.github.io) >> CP4**
+**[Home](https://AbLECPS.github.io) >> Challenge Problem 4**
 
 # Challenge Problem 4 - Waypoint Following
 

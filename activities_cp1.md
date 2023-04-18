@@ -1,5 +1,5 @@
 
-**[Home](https://AbLECPS.github.io) >> CP1**
+**[Home](https://AbLECPS.github.io) >> Challenge Problem 1**
 
 # Challenge Problem 1 - Pipe tracking
 

@@ -1,9 +1,10 @@
 
-**[Home](https://AbLECPS.github.io) >> BlueROVSim Activity**
+**[Home](https://AbLECPS.github.io) >> Challenge Problems**
 
-# BlueROVSim Activity
+# Challenge Problems - BlueROVSim Activity
 
-## Challenge problem examples in this release:
+Challenge problem (CP) examples are available from the ALC Toolchain both in headless mode (running as an activity) and using IDE (running from command line). Examples in this release includes the following:
+
 ### CP1 Pipe tracking
 UUV has to follow an underwater pipe on the seabed using side scanning sonar and perception LEC. During mission various hazards (obstacles) and failsafes (battery low, geofence etc.) can occur.
 ### CP2 Thruster degradation
@@ -11,9 +12,10 @@ This challenge problem is based on CP1, with thruster degradations. FDIR system 
 ### CP4 Waypoint Following
 This is a waypoing following mission type, with the same hazards and failsafes as in CP1.
 ### Real-Time Reachability
-The RTReach node is always running in the BlueROV simulation. It warns the behavior tree if the commanded heading leads to an unsafe situation for the uuv (collision with obstacle or nogo zone).  When RTReach reports UNSAFE condition based on the obstacles,  the UUV is commanded to  "emergency stop". Thereafter, the UUV moves straight up to the surface.
+The real-time reachability involves running the reachability analysis code at run-time (with the simulation) and compute the
+reachability of UUV to check if there will be a collision in projected window. RtReach node is always running in the BlueROV simulation. It warns the behavior tree if the commanded heading leads to an unsafe situation for the uuv (collision with obstacle or nogo zone). When RtReach reports UNSAFE condition based on the obstacles, the UUV is commanded to  "emergency stop". Thereafter the UUV moves straight up to the surface.
 
-
+The available examples in this release can be found in ALC/Construction/Testing/ when using Activities or $ALC_HOME/bluerov2_standalone/catkin_ws/src/vandy_bluerov/scripts/ when using command line. To execute these examples please follow the steps described in the documentation and in the front page videos.
 
 ## Using BlueROVSim Activity
 

@@ -1,5 +1,5 @@
 
-**[Home](https://AbLECPS.github.io) >> CP2**
+**[Home](https://AbLECPS.github.io) >> Challenge Problem 2**
 
 # Challenge Problem 2 - Thruster degradation
 
