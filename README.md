@@ -38,7 +38,7 @@ allowfullscreen>
 [https://github.com/AbLECPS/alc](https://github.com/AbLECPS/alc)
 
 
-[ALC_Toolchain_Documentation.pdf](https://github.com/AbLECPS/alc/blob/main/doc/ALC_Toolchain_Documentation.pdf)
+[ALC_Toolchain_Documentation.pdf](https://github.com/AbLECPS/alc/blob/master/doc/ALC_Toolchain_Documentation.pdf)
 
 ---
 
